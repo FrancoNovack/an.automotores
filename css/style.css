@@ -1,0 +1,615 @@
+*{
+    margin: 0;
+    padding: 0;  ;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+.container-fluid .navbar-brand{
+    color: #df6a1c;
+}
+.btn{
+    background-color: #ebb99786 !important;
+    border: #e29b6b !important;
+    color: black !important;
+}
+.btn:hover{
+    background-color: #e29b6b !important; 
+}
+/*PRESENTACION */
+.bienvenido {
+    background-image: url(../img/concecionaria.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 30px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bienvenido h3 {
+    color: rgb(231, 133, 12);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.bienvenidos h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium ;
+    font-weight: bold;
+}
+
+/* MAIN */
+.presentacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+}
+.card img{
+    width: 250px;
+}
+.hero {
+    margin: 50px;
+}
+.hero h3 {
+    background-color: #e29b6b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hero h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero p {
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero ol {
+    list-style:disc;
+}
+
+.form {
+    border: 1px solid black;
+    width: 400px;
+    background-color: #e29b6b;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 250px 20px 250px
+}
+.form h4 {
+    background-color: #e29b6b;
+    font-family: serif;
+    font-weight: 900;
+    font-size: larger;
+    width: 400px;
+}
+.form label {
+    display: block;
+    height: 20px;
+}
+
+.img {
+    position: fixed;
+    bottom: 100px;
+    right: 500px;
+}
+div a img {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+}
+.boton {
+    margin: 5px 50px 0px 50px ;
+}
+.boton h3 {
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    color: rgb(8, 19, 19);
+    background-color: coral;
+    text-align: center;
+}
+.boton p{
+    margin: 5px 50px 0px 50px ;
+}
+
+/*  */
+.inferior{
+    display:flex ;
+    justify-content: flex-end;
+    
+}
+.inferior img {
+    width: 500px;
+    height: 500px;
+    order: 2;
+}
+.inferior p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.wsp {
+    display: flex;
+    flex-direction: left;
+}
+
+/**PAGINA USADO **/
+.pagusado {
+    background-image: url(../img/usado.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pagusado h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(218, 133, 37);
+    font-weight: 400;
+    font-size: 50px;
+    text-decoration: overline;
+    }
+.pagusado h3 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 300;
+    font-size: 20px;
+    color:#df6a1c
+}
+.descubri h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    margin-top: 15px;
+    color: #df6a1c;
+}
+.descubri p {
+    margin: 10px 200px 10px 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.recomendado h2 {
+    background-color:#df6a1c;
+    color: black;
+    text-align: center;
+    margin: 150px 0 50px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+/** GALERIA USADOS*/
+.galeria {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*grid-template-rows: 200px 200px 200px 200px;*/;
+    grid-auto-rows: 250px;
+    gap: 8px
+}
+.galeria div {
+    background-color: #e29b6b;
+    box-shadow: 10px 10px 20px -13px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 20px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 20px -13px rgba(0,0,0,0.75)
+}
+.imagen1{
+    grid-column: 1/3;
+}
+.imagen3{
+    position: relative;
+}
+.imagen3 h3 {
+    position: absolute;
+    bottom: 0;
+    color: beige;
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 100%;
+}
+
+.imagen7 {
+    grid-column: 4/5;
+    grid-row: 2/4 ;
+}
+.imagen11{
+    grid-column: 1/3;
+}
+
+/*FORMULARIO PARA COMPLETAR */
+.formulario h2 {
+    background-color: #df6a1c;
+    text-align: center;
+    margin: 200px 0 20px 0;
+}
+.formulario input {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    font-size: 30px;
+    width: 100%;
+    border: #e29b6b;
+    border-bottom: 1px solid #df6a1c;
+
+}
+.formulario button {
+    background-color: rgb(221, 148, 39);
+    font-family: fantasy;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 20px 200px 20px 50px
+}
+/***PAGINA 0KM ***/
+.arranque {
+    background-image: url(../img/familia0km.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.arranque h2 {
+    color: rgb(54, 41, 27);
+    margin-left: 30px;
+    background-color: #e29b6b;
+    width: 180px;
+}
+
+.titulo h2{
+    background-color: #e29b6b;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: overline;
+    padding: 8px;
+}
+.titulo p {
+    margin: 10px 250px 10px 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+.titulo h3  {
+    background-color:#e29b6b ;
+    padding: 8px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulo a {
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+/** PLANES DE AHORRO **/
+.planes h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    font-style: oblique;
+    text-decoration: overline;
+    text-align: center;
+    margin-top: 25px;
+    padding: 8px;
+    background-color:#e4b291;
+
+    }
+    .planes h4 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 25px;
+    }
+    .planes p {
+        text-align: center;
+        font-family:monospace;
+        font-weight: 50;
+        margin: 10px 200px 10px 200px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    /** AUTOS **/
+    .opciones h2{
+        background-color: #df6a1c;
+        text-align: center;
+        font-family: inherit;
+        font-size: 25px;
+        font-weight: 100;
+        padding: 10px;
+        margin: 15px 0 15px 0 
+    }
+    .opciones h3 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 100;
+            text-decoration:underline;
+            margin-left: 15px;
+    }
+    .opciones img {
+        width: 250px;
+        height: 200px;
+    }
+    .opciones img {
+        width: 290px;
+        height: 200px;
+    }
+    .opciones div {
+        border: 2px solid rgb(94, 91, 81);
+        width: 290px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #d4b8a5;
+        margin: 5px;
+        display: inline-block;
+        justify-content: center;
+    }
+    .carrusel1{
+        width: 80% !important;
+        margin-left: 12%;
+    }
+    
+    /**CONTACTO**/
+.contacto {
+    background-image: url(../img/contacto.webp);
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.contacto h2 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 200;
+    text-decoration:overline;
+    background-color: #e4b291;
+    height: 33px;
+    width: 250px;
+    padding: 5px;
+}
+.contacto h3 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: 2px underline;
+    background-color: #e4b291;
+    height: 50px;
+    width: 250px;
+    padding: 5px;
+}
+.ubicacion h2 {
+    color: #3d1c06;
+    background-color: #df6a1c;
+    margin: 20px 0 15px 0;
+    padding: 5px;
+    text-align: center;
+}
+.ubicacion h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+.mapa {
+    width: 600px;
+    height: 600px;
+    margin: 0px 340px 0 350px;
+    
+}
+
+.logos h2 {
+    background-color: #df6a1c;
+    text-align: center;
+    margin-top: 40px ;
+}
+.logos img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+/** MEDIA QUERY*/
+@media screen and (max-width:800px){
+    header {
+        width: 100%;
+    }
+    .bienvenido{
+        background-image: none;
+        background-color: #df6a1c57;
+        height: 100px;
+        width: 450px;
+        margin: 10px 5px 10px 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bienvenido h3 {
+        font-size: 25px;
+        text-decoration: overline;
+    }
+    .bienvenido h4 {
+        font-size: 5px;
+        width: 50%;
+        margin: 10px;
+    }
+    .presentacion{
+        display: contents;
+        text-align: center;
+    }
+    .presentacion a div{
+        margin-left: 60px;
+    }
+    .hero {
+        width: 500px;
+    }
+    .hero h3 {
+        font-size: 15px;
+    }
+    .hero h4 {
+        font-size: 12px;
+    }
+    .hero p {
+        font-size: 13px;
+    }
+    .hero ol {
+        font-size: 13px;
+    }
+    .boton {
+        width: 500px;
+    }
+    .boton h3 {
+        font-size: 15px;
+    }
+    .inferior{
+        display: flex;
+        width: 500px;
+    }
+    .inferior img {
+        display: none;
+    }
+    .inferior p {
+        font-size: 13px;
+        width: 200px;
+        text-align: center;
+        margin: 5px 50px 0 50px;
+        display: contents;
+    }
+
+    /*PAGINA DE USADOS */
+    .pagusado{
+        background-image: none;
+        background-color: #e9905570;
+        height: 100px;
+        width: 500px;
+    }
+    .pagusado h2{
+        font-size: 35px;
+        margin-left: 20px;
+    }
+    .pagusado h3 {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    .descubri h2 {
+        font-size: 35px;
+        text-align: left;
+        margin-left: 15px;
+    }
+    .descubri p {
+        font-size: 15px;
+        margin: 10px;
+        width: 500px;
+    }
+    .recomendado{
+        width: 500px;
+    }
+    .galeria{
+        grid-template-columns: repeat(2,250px);
+        /*grid-template-rows: 200px 200px 200px 200px;*/;
+        grid-auto-rows: 150px;
+        gap: 8px;
+        margin-bottom: 5px;
+    }
+    .imggaleria {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .formulario{
+        width: 500px;
+    }
+    .formulario h2 {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .formulario input {
+        font-size: 20px;
+    }
+    .formulario button {
+        font-size: 15px;
+        width: 100px;
+        height: 25px;
+    }
+    .titulo p{
+        width: 500px;
+        text-align: left;
+        margin-left: 5px;
+        font-size: 18px;
+    }
+    .planes h4 {
+        font-size: 20px;
+    }
+    .planes p {
+    width: 500px;
+    text-align: left;
+    margin-left: 5px;
+}
+.opciones h3{
+    font-size: 20px;
+}
+.opciones img {
+    width: 250px;
+
+}
+.opciones div img h3 h4 button {
+    width: 250px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+/* CONTACTO */
+.contacto{
+    background-image: none;
+    height: 150px;
+    margin: 15px 20px 20px 20px;
+}
+.contacto h2 {
+    font-size: 20px;
+}
+.contacto h3{
+    font-size: 15px;
+}
+.ubicacion{
+    width: 500px;
+}
+.ubicacion h2{
+    font-size: 20px;    
+}
+.ubicacion h3 {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.mapa{
+    margin: 10px 50px 15px 30px;
+    width: 350px;
+    height: 350px;
+}
+.logos{
+    width: 500px;
+}
+.logos h2{
+    font-size: 20px;
+}
+logos img{
+    width: 15px;
+    height: 15px;
+}
+}
