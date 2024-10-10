@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;  ;
 }
-
+body{
+    background-color: white;
+}
 a {
     text-decoration: none;
 }
@@ -46,6 +48,9 @@ a {
     width: 50px;
     
 }
+.carousel-item img{
+    height: 350px;
+}
 .card-text{
     width: 220px;
     margin: 10px ;
@@ -60,6 +65,10 @@ a {
 .btn-primary{
     width: 220px;
     margin: 10px 
+}
+.card{
+    margin: 8px 5px 8px 35px;
+
 }
 .card img{
     width: 250px;
@@ -355,7 +364,7 @@ input{
     
     /** AUTOS **/
     .opciones h2{
-        background-color: #df6a1c;
+        background-color: #df6a1ca1;
         text-align: center;
         font-family: inherit;
         font-size: 25px;
@@ -431,6 +440,9 @@ input{
 
 /** MEDIA QUERY*/
 @media (min-width:350px) and (max-width:690px){
+    body{
+        background-color: white;
+    }
     .navbar{
         width: 100%;
         height: auto;
@@ -444,7 +456,7 @@ input{
     .mapa {
         width: 280px;
         height: 280px;
-        margin-left: 25%;
+        margin-left: 8%;
         
     }
     
@@ -453,24 +465,25 @@ input{
         flex-direction: column;
         justify-content:space-around;
         align-items: flex-start;
-        height: 380px;
-        width: 80%;
-
-    
+        height: 250px;
+        width: 100%;
     }
     .logoa{
-        margin:0
+        margin:0;
     }
     .logoa img{
-        width: 250px;
-        height: 250px;
-        margin: 0 0 2px 0;
+        width: 220px;
+        height: 120px;
+        margin: 0 0 5px 30px;
     }
     .logos{
     
         width: 200px;
         height: 200px;
         margin: 15px 0 0 5px;
+    }
+    .logos2{
+        margin-left: 20px;
     }
     .logos h3{
         font-size: 12px;
@@ -499,12 +512,19 @@ input{
         background-image: url(../img/fondo3.PNG);
         background-position:bottom;
         background-attachment: fixed;
-        height: 700px;
+        height: 400px;
+        border-bottom: 3px solid rgb(233, 157, 59);
+    }
+    .pagusado h2{
+        font-size: 35px;
     }
     .presentacion{
         flex-direction: column;
         justify-content:left;
         margin: 30px 5px 15px 5px;
+    }
+    .descubri{
+        margin-top: 25px;
     }
     .descubri h2{
         font-size: 35px;
@@ -512,7 +532,11 @@ input{
     .descubri p{
         width: 90%;
         margin: 5px;
-        text-align: none;
+        text-align: center;
+        border-left: 3px solid rgb(233, 157, 59);;
+    }
+    .recomendado{
+        margin-top: 5px;
     }
     .galeria{
         margin-bottom: 5px;
@@ -520,6 +544,10 @@ input{
     }
     .galeria img{
         height: 350px;
+    }
+    .formulario{
+        width: 90%;
+        margin-left: 5%;
     }
     .formulario h2{
         background-color: #e29b6b;
@@ -577,7 +605,7 @@ input{
                 height: 200px;
             }
             .opciones div {
-                margin-left: 20%;
+                margin-left: 10%;
             }
             .carrusel1{
                 margin-top: 40px;
