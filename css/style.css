@@ -22,6 +22,12 @@ a {
 .btn:hover{
     background-color: #e29b6b !important; 
 }
+.ubi a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.548);
+    padding-top: 1px;
+
+}
 /*PRESENTACION */
 .carrusel img {
     height: 650px;
@@ -136,6 +142,48 @@ div a img {
     display: flex;
     flex-direction: left;
 }
+footer{
+    background-color: #eb660ec4;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    height: 100px;
+    margin-top: 25px;
+
+}
+.logoa{
+    margin: 0
+}
+.logoa img{
+    width: 200px;
+    height: 100px;
+}
+.logos{
+
+    width: 200px;
+    height: 150px;
+    margin: 15px 0 0 5px;
+}
+.logos h3{
+    font-size: 12px;
+    font-family: monospace;
+}
+.logos img {
+    align-items: flex-start;
+    position: static;
+    margin: 5px 0 0 10px;
+    width: 50px;
+    height: 50px;
+}
+.breve h4{
+    width: 350px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 15px 20px 0px;
+
+
+}
+
 
 /**PAGINA USADO **/
 .pagusado {
@@ -334,57 +382,25 @@ div a img {
     }
     
     /**CONTACTO**/
-.contacto {
-    background-image: url(../img/contacto.webp);
-    background-position: center;
-    background-attachment: fixed;
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-}
-.contacto h2 {
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    font-weight: 200;
-    text-decoration:overline;
-    background-color: #e4b291;
-    height: 33px;
-    width: 250px;
-    padding: 5px;
-}
-.contacto h3 {
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    text-decoration: 2px underline;
-    background-color: #e4b291;
-    height: 50px;
-    width: 250px;
-    padding: 5px;
-}
 .ubicacion h2 {
     color: #3d1c06;
-    background-color: #df6a1c;
+    background-color: #df6a1c77;
     margin: 20px 0 15px 0;
     padding: 5px;
     text-align: center;
+    font-size: 25px;
 }
 .ubicacion h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     text-align: center;
+    font-size: 20px;
 }
 .mapa {
-    width: 600px;
-    height: 600px;
-    margin: 0px 340px 0 350px;
+    width: 450px;
+    height: 450px;
+    margin-left: 30%;
     
 }
 
@@ -405,9 +421,71 @@ div a img {
         width: 100%;
         height: auto;
     }
+    .ubicacion h2 {
+        font-size: 21px;
+    }
+    .ubicacion h3 {
+        font-size: 15px;
+    }
+    .mapa {
+        width: 280px;
+        height: 280px;
+        margin-left: 25%;
+        
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: flex-start;
+        height: 380px;
+        width: 80%;
+
+    
+    }
+    .logoa{
+        margin:0
+    }
+    .logoa img{
+        width: 250px;
+        height: 250px;
+        margin: 0 0 2px 0;
+    }
+    .logos{
+    
+        width: 200px;
+        height: 200px;
+        margin: 15px 0 0 5px;
+    }
+    .logos h3{
+        font-size: 12px;
+        font-family: monospace;
+        margin: 5px 0 0 15px;
+    }
+    .logos img {
+        align-items: flex-start;
+        position: static;
+        margin: 15px 0 0 15px;
+        width: 20px;
+        height: 20px;
+    }
+    .breve h4{
+        width: 250px;
+        font-size: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 5px 20px 0px;
+    
+    }
     .carrusel{
         width: 100%;
         height: auto;   
+    }
+    .pagusado {
+        background-image: url(../img/fondo3.PNG);
+        background-position:bottom;
+        background-attachment: fixed;
+        height: 700px;
     }
     .presentacion{
         flex-direction: column;
@@ -435,5 +513,61 @@ div a img {
         font-size: 20px;
         width: 100%;
     }
+    .titulo h2{
+        background-color: #e29b6b;
+        text-align: center;
+        margin-top: 50px;
+        text-decoration: overline;
+        padding: 8px;
+        font-size: 22px;
+    }
+    .titulo p {
+        margin: 10px 10px 10px 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .titulo h3  {
+        font-size: 22px;
+    }
+    .titulo h3:hover{
+        background-color: #e7630b;
+    }
 
-}
+    .titulo a {
+        color: black;
+        padding: 15px;
+        text-align: center;
+    }
+    .planes h3 {
+        font-size: 22px;
+        font-weight: 250;
+        }
+        .planes h4 {
+            font-size: 21px;
+        }
+        .planes p {
+            margin: 5px;
+        }
+            .opciones h2{
+                font-size: 21px;
+                font-weight: 150;
+            }
+            
+            .opciones img {
+                width: 250px;
+                height: 200px;
+            }
+            .opciones img {
+                width: 290px;
+                height: 200px;
+            }
+            .opciones div {
+                margin-left: 20%;
+            }
+            .carrusel1{
+                margin-top: 40px;
+                width: 80% !important;
+                margin-left: 12%;
+            }
+        }
