@@ -240,7 +240,7 @@ footer{
 .galeria {
     width: 98%;
     height: 600px;
-    margin: 10px 15px 10px 20px;
+    margin: 10px 15px 10px 10px;
 
 }
 .galeria img {
@@ -251,6 +251,8 @@ footer{
 /*FORMULARIO PARA COMPLETAR */
 .formulario{
     width: 50%;
+    margin-left: 25%;
+    
 }
 .formulario h2 {
     text-align: center;
@@ -267,13 +269,14 @@ input{
     border: solid 1px #df6a1c52;
     
 }
-button{
+.botonusado{
     background-color: #d88853b7;
-    width: 150px;
+    width: 100px;
     height: 50px;
     margin: 9px 0 0 15px;
+    border-radius: 40px;
 }
-button:hover{
+.botonusado:hover{
     background-color: #d66417;
 }
 .formulariousado {
@@ -388,6 +391,9 @@ button:hover{
     .carrusel1{
         width: 80% !important;
         margin-left: 12%;
+        border: 1px solid rgba(49, 47, 47, 0.247);
+        border-radius: 20px;
+        margin-top: 15px;
     }
     
     /**CONTACTO**/
