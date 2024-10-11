@@ -49,7 +49,8 @@ a {
     
 }
 .carousel-item img{
-    height: 350px;
+    height: 650px;
+    width: 75%;
 }
 .card-text{
     width: 220px;
@@ -396,8 +397,9 @@ input{
         display: inline-block;
         justify-content: center;
     }
-    .carrusel1{
+    .carrusel1 img{
         width: 80% !important;
+        height: 500px !important;
         margin-left: 12%;
         border: 1px solid rgba(49, 47, 47, 0.247);
         border-radius: 20px;
@@ -446,6 +448,9 @@ input{
     .navbar{
         width: 100%;
         height: auto;
+    }
+    .carousel-item img{
+        height: 350px;
     }
     .ubicacion h2 {
         font-size: 21px;
@@ -607,9 +612,10 @@ input{
             .opciones div {
                 margin-left: 10%;
             }
-            .carrusel1{
+            .carrusel1 img{
                 margin-top: 40px;
                 width: 80% !important;
                 margin-left: 12%;
+                height: 250px !important;
             }
         }
