@@ -1,0 +1,186 @@
+@media (min-width:350px) and (max-width:690px){
+    body{
+        background-color: white;
+    }
+
+    // PAGINA INICIO 
+    .navbar{
+        width: 100%;
+        height: auto;
+    }
+    .carousel-item img{
+        height: 350px;
+    }
+    .ubicacion h2 {
+        font-size: 21px;
+    }
+    .ubicacion h3 {
+        font-size: 15px;
+    }
+    .mapa {
+        width: 280px;
+        height: 280px;
+        margin-left: 8%;
+        
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: flex-start;
+        height: 250px;
+        width: 100%;
+    }
+    .logoa{
+        margin:0;
+    }
+    .logoa img{
+        width: 220px;
+        height: 120px;
+        margin: 0 0 5px 30px;
+    }
+    .logos{
+    
+        width: 200px;
+        height: 200px;
+        margin: 15px 0 0 5px;
+    }
+    .logos2{
+        margin-left: 20px;
+    }
+    .logos h3{
+        font-size: 12px;
+        font-family: monospace;
+        margin: 5px 0 0 15px;
+    }
+    .logos img {
+        align-items: flex-start;
+        position: static;
+        margin: 15px 0 0 15px;
+        width: 20px;
+        height: 20px;
+    }
+    .breve h4{
+        width: 250px;
+        font-size: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 5px 20px 0px;
+    
+    }
+    .carrusel{
+        width: 100%;
+        height: auto;   
+    }
+
+    /// PAGINA USADO
+    .pagusado {
+        background-image: url(../img/fondo3.PNG);
+        background-position:bottom;
+        background-attachment: fixed;
+        height: 400px;
+        border-bottom: 3px solid rgb(233, 157, 59);
+    }
+        .pagusado h2{
+            font-size: 35px;
+    }
+    .presentacion{
+        flex-direction: column;
+        justify-content:left;
+        margin: 30px 5px 15px 5px;
+    }
+    .descubri{
+        margin-top: 25px;
+    }
+        .descubri h2{
+            font-size: 35px;
+            width: 100%;
+            margin-left: 5px;
+    }
+        .descubri p{
+            width: 90%;
+            margin-left: 5px !important;
+            text-align: center;
+            border-left: 3px solid rgb(233, 157, 59);;
+    }
+    .recomendado{
+        margin-top: 5px;
+    }
+    .galeria{
+        margin-bottom: 5px;
+        height: 300px;
+    }
+        .galeria img{
+            height: 350px;
+    }
+    .formulario{
+        width: 90%;
+        margin-left: 5%;
+    }
+        .formulario h2{
+            background-color: #e29b6b;
+            font-weight: 600;
+            font-size: 20px;
+            width: 100%;
+    }
+
+    // PAGINA 0Km
+    .titulo h2{
+        background-color: #e29b6b;
+        text-align: center;
+        margin-top: 50px;
+        text-decoration: overline;
+        padding: 8px;
+        font-size: 22px;
+    }
+    .titulo p {
+        margin: 10px 10px 10px 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .titulo h3  {
+        font-size: 22px;
+    }
+    .titulo h3:hover{
+        background-color: #f16d15;
+    }
+
+    .titulo a {
+        color: black;
+        padding: 15px;
+        text-align: center;
+    }
+    .planes h3 {
+        font-size: 22px;
+        font-weight: 250;
+        }
+        .planes h4 {
+            font-size: 21px;
+        }
+        .planes p {
+            margin: 5px;
+        }
+            .opciones h2{
+                font-size: 21px;
+                font-weight: 150;
+            }
+            
+            .opciones img {
+                width: 250px;
+                height: 200px;
+            }
+            .opciones img {
+                width: 290px;
+                height: 200px;
+            }
+            .opciones div {
+                margin-left: 10%;
+            }
+            .carrusel1 img{
+                margin-top: 40px;
+                width: 80% !important;
+                margin-left: 12%;
+                height: 250px !important;
+            }
+}

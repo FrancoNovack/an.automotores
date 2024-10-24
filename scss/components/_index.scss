@@ -1,0 +1,180 @@
+
+header{
+    .navbar {
+        width: 100%;
+    }
+    .navbar-brand{
+        color: #df6a1c;
+    }
+    .container-fluid{
+        color: #df6a1c;
+        .ubi a{
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.548);
+            padding-top: 1px;
+        }
+        .btn{
+            background-color: #ebb99786 !important;
+            border: #e29b6b !important;
+            color: black !important;
+        }
+        .btn:hover{
+            background-color: #e29b6b !important; 
+        }
+    }
+}
+main{
+    .carrusel{
+        .carousel-item img{
+            height: 600px !important;
+            width: 100%;
+        }
+    }
+    .presentacion{
+        margin: map-get($map: $tarjeta, $key: margin ) ;
+        display: map-get($tarjeta, display );
+        flex-direction: map-get($tarjeta, flex-direction);
+        flex-wrap: map-get($tarjeta, flex-wrap );
+        justify-content: map-get($tarjeta, justify-content)
+    }
+        .presentacion div{
+            height: 410px;
+            width: 50px;
+    }
+        .card{
+            height: 25rem;
+            box-shadow: 5px 15px 15px 5px rgba(0, 0, 0, 0.212);
+            transition-duration: 1s;
+    }
+        .card:hover{
+            transform:scale(1.1);
+    }
+        .card-text{/**/
+            width: 220px;
+            margin: 10px ;
+            font-size: 15px;
+            margin-top: 2px;
+    }
+        .card-title{
+            width: 220px;
+            margin: 2px 10px 0 10px ;
+            font-size: 20px;
+    }
+        .btn-primary{
+            width: 220px;
+            margin: 10px 
+        }
+        .card{
+            margin: 8px 5px 8px 35px;
+        
+        }
+        .card img{
+            width: 250px;
+            height: 250px;
+            margin-left: 15px;
+        }
+        .card1{
+            margin-bottom: 22px;
+        }
+    .hero{
+        margin: 50px;
+        }
+        .hero h3 {
+            background-color: $color-principal;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .hero h4 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .hero p {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .hero ol {
+            list-style:disc;
+        }
+    .boton{
+        margin: 5px 50px 0px 50px ;
+    }   
+        .boton h3 {
+            font-size: larger;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 900;
+            color: rgb(8, 19, 19);
+            background-color: $colores;
+            text-align: center;
+            text-decoration: none;
+        }
+    .inferior{
+        margin-top: 25px;
+    }
+    .ubicacion{
+        h2{
+            color: #3d1c06;
+            background-color: #df6a1c77;
+            margin: 20px 0 15px 0;
+            padding: 5px;
+            text-align: center;
+            font-size: 25px;
+        }
+        h3 {/**/
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100;
+            text-align: center;
+            font-size: 20px;
+        }
+        .mapa{
+            width: 28.12rem;
+            height: 28.12rem;
+            margin-left: 20%;
+            
+        }
+    }
+}
+
+footer{
+    background-color: #eb660ec4;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    height: 100px;
+    margin-top: 25px;
+    .logoa{
+        margin: 0;
+        img{
+            width: 12.5rem;
+            height: 6.2rem;
+        }
+}
+    .breve{
+        h4{
+            width: 350px;
+            font-size: 18px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 15px 20px 0px;
+        }
+}
+    .logos{
+        width: 200px;
+        height: 150px;
+        margin: 15px 0 0 5px;
+        h3{
+            font-size: 12px;
+            font-family: monospace;
+    }
+        img {
+            align-items: flex-start;
+            position: static;
+            margin: 5px 0 0 10px;
+            width: 50px;
+            height: 50px;
+    }   
+    } 
+    }
+
+
+    
+
+
+
+
+

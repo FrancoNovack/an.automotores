@@ -34,31 +34,32 @@ a {
 .carrusel img {
     height: 650px;
 }
+.carousel-item img{
+    height: 650px;
+    width: 75%;
+}
 
 /* MAIN */
-.presentacion{
+.presentacion{/***/
     margin: 20px 50px 20px 50px ;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.presentacion div{
+.presentacion div{/**/
     height: 430px;
     width: 50px;
-    
+
+
 }
-.carousel-item img{
-    height: 650px;
-    width: 75%;
-}
-.card-text{
+.card-text{/**/
     width: 220px;
     margin: 10px ;
     font-size: 15px;
     margin-top: 2px;
 }
-.card-title{
+.card-title{/**/
     width: 220px;
     margin: 2px 10px 0 10px ;
     font-size: 20px;
@@ -69,17 +70,21 @@ a {
 }
 .card{
     margin: 8px 5px 8px 35px;
-
+    box-shadow: 5px 15px 15px 5px rgba(0, 0, 0, 0.212);
+    transition-duration: 1s;
 }
-.card img{
+.card:hover{
+    transform:scale(1.1);
+}
+.card img{/**/
     width: 250px;
     height: 250px;
     margin-left: 15px;
 }
-.card1{
+.card1{/**/
     margin-bottom: 22px;
 }
-.hero {
+.hero {/**/
     margin: 50px;
 }
 .hero h3 {
@@ -131,7 +136,7 @@ div a img {
 .boton {
     margin: 5px 50px 0px 50px ;
 }
-.boton h3 {
+.boton h3 {/**/
     font-size: larger;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
@@ -144,7 +149,7 @@ div a img {
 }
 
 
-.inferior{
+.inferior{/**/
     margin-top: 25px;
 }
 
@@ -168,8 +173,7 @@ footer{
     width: 200px;
     height: 100px;
 }
-.logos{
-
+.logos{/**/
     width: 200px;
     height: 150px;
     margin: 15px 0 0 5px;
@@ -185,7 +189,7 @@ footer{
     width: 50px;
     height: 50px;
 }
-.breve h4{
+.breve h4{/**/
     width: 350px;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -214,12 +218,6 @@ footer{
     font-size: 50px;
     text-decoration: overline;
     }
-.pagusado h3 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    font-weight: 300;
-    font-size: 20px;
-    color:#df6a1c
-}
 .descubri h2 {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -408,7 +406,7 @@ input{
     
     /**CONTACTO**/
 
-.ubicacion h2 {
+.ubicacion h2 {/**/
     color: #3d1c06;
     background-color: #df6a1c77;
     margin: 20px 0 15px 0;
@@ -416,13 +414,13 @@ input{
     text-align: center;
     font-size: 25px;
 }
-.ubicacion h3 {
+.ubicacion h3 {/**/
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     text-align: center;
     font-size: 20px;
 }
-.mapa {
+.mapa {/**/
     width: 450px;
     height: 450px;
     margin-left: 30%;

@@ -1,0 +1,15 @@
+/* FUNCIONALIDADES */
+/*! VARIABLES */
+$color-principal: #e29b6b ;
+
+/*! LISTAS */
+$colores: red, black, yellow, pink, coral;
+
+/*! OPERACIONES */
+
+/*! MAPAS */ 
+$tarjeta: (margin: 20px 50px 20px 50px,
+display: flex,
+flex-direction: row,
+flex-wrap: wrap,
+justify-content: space-between)

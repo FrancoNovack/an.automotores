@@ -1,0 +1,26 @@
+{
+  "name": "an.automotores",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hola 👋, soy Franco</h1> <h3 align=\"center\">Concesionaria AN AUTOMOTORES</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrancoNovack/an.automotores.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancoNovack/an.automotores/issues"
+  },
+  "homepage": "https://github.com/FrancoNovack/an.automotores#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.7"
+  }
+}
