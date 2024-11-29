@@ -11,7 +11,7 @@ body {
   background-color: white; }
 
 *a {
-  text-decoration: none; }
+  text-decoration: none !important; }
 
 header .navbar {
   width: 100%; }
@@ -160,9 +160,82 @@ footer {
     footer .logos img {
       align-items: flex-start;
       position: static;
-      margin: 5px 0 0 10px;
+      margin: 0;
       width: 50px;
       height: 50px; }
+
+header .navbar {
+  width: 100%; }
+
+header .navbar-brand {
+  color: #df6a1c; }
+
+header .container-fluid {
+  color: #df6a1c; }
+  header .container-fluid .ubi a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.548);
+    padding-top: 1px; }
+  header .container-fluid .btn {
+    background-color: #ebb99786 !important;
+    border: #e29b6b !important;
+    color: black !important; }
+  header .container-fluid .btn:hover {
+    background-color: #e29b6b !important; }
+
+.contacto img {
+  width: 100%;
+  height: 650px; }
+
+.contacto h2 {
+  background-color: #e29b6b;
+  text-decoration: none !important;
+  color: black;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 3px; }
+
+.contacto h3 {
+  background-color: #df6a1c8a;
+  color: white;
+  text-decoration: none !important;
+  padding: 3px; }
+
+.ubicacion h2 {
+  color: #3d1c06;
+  background-color: #df6a1c77;
+  margin: 20px 0 15px 0;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px; }
+
+.ubicacion h3 {
+  /**/
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 20px; }
+
+.ubicacion .mapa {
+  width: 60%;
+  height: 600px;
+  margin-left: 20%; }
+
+.logos {
+  width: 100%;
+  height: 75px;
+  margin: 25px 0 0 5px; }
+  .logos h2 {
+    margin-left: 15px;
+    font-size: 30px;
+    padding-top: 15px; }
+  .logos img {
+    align-items: flex-start;
+    position: static;
+    margin: 5px 0 0 10px;
+    width: 60px;
+    height: 60px;
+    padding-top: 10px; }
 
 header .navbar {
   width: 100%; }
